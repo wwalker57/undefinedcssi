@@ -5,7 +5,7 @@ font-weight: normal;
 src: local('Sifonn Pro'), url('SIFONN_PRO.woff') format('woff');
 }
 
-.icon-bar {
+/*.icon-bar {
     width: 100%; /* Full-width */
     background-color: #4484CE; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
@@ -27,7 +27,7 @@ src: local('Sifonn Pro'), url('SIFONN_PRO.woff') format('woff');
 
 .active {
     background-color: #F9CF00; /* Add an active/current color */
-}
+}*/
 
 body{ background-color: white;
   padding-bottom:60px;
@@ -237,4 +237,36 @@ hr {display:inline-block;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+#nav2 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%
+  list-style-type: none;
+  bottom:0
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent
+}
+
+#nav2 li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#nav2 li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 7px 10px;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Tahoma
+}
+
+#nav2 li a:hover {
+  background-color: white
 }
